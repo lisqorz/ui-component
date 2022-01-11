@@ -1,0 +1,45 @@
+.viking-alert {
+  background-color: $primary;
+  border-radius: $border-radius;
+  padding: $alert-padding-y $alert-padding-x;
+  position: relative;
+}
+
+.alert-closeable {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: $alert-padding-y $alert-padding-x;
+}
+
+.alert-title {
+  display: block;
+  font-weight: $font-weight-bold;
+}
+
+.alert-description {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: $alert-description-font-size;
+}
+
+.alert-danger {
+  color: $white;
+  background-color: $danger;
+}
+
+.alert-success {
+  color: $white;
+  background-color: $success;
+}
+
+.alert-default {
+  color: $white;
+  background-color: $primary;
+}
+
+.alert-warning {
+  color: $white;
+  background-color: $warning;
+
+}
