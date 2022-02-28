@@ -1,6 +1,7 @@
 import React from 'react'
 import Alert, {AlertType} from "./Alert";
 import {storiesOf} from '@storybook/react'
+import {withInfo} from '@storybook/addon-info'
 
 const defaultAlert = () => {
     return (<Alert message={'标题'} closeable={false}/>)
@@ -23,6 +24,7 @@ const all = () => {
     )
 }
 storiesOf('alert', module)
+    .addDecorator(withInfo)
     .add('Alert', defaultAlert)
     .add('cancelable', cancelable)
     .add('所有', all)
