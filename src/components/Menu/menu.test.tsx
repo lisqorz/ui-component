@@ -23,7 +23,6 @@ const generateMenuList = (props: MenuProps) => {
                 <MenuItem>active</MenuItem>
                 <MenuItem disabled={true}>disabled</MenuItem>
                 <MenuItem>xyz</MenuItem>
-                <li>xyz</li>
             </Menu>
         </div>
     )
