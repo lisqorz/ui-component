@@ -24,7 +24,7 @@ Ran all test suites.
 
 Watch Usage: Press w to show more.
 ```
-![alert](source/alert.png)
+![alert](source/Alert.png)
 ![AutoComplete](source/AutoComplete.png)
 ![Icon](source/icon.png)
 ![Menu](source/menu.png)
